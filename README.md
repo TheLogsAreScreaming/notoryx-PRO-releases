@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: in development, no builds yet
+## Status: first test build out
 
-NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/TheLogsAreScreaming/notoryx-PRO). The first test build arrives once both radio types can connect and send messages.
+**[0.1.0 test 1](../../releases/tag/v0.1.0-test.1)** connects to MeshCore and Meshtastic radios over Bluetooth, Wi-Fi or USB (Android), shows one inbox for both meshes, sends and receives with delivery status and retries, reconnects by itself, and shows how each message travelled. It hasn't been tried on real radios yet, so please report what works.
 
 | Part | State |
 |---|---|
@@ -19,7 +19,7 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 | One shared model for both meshes (radios, nodes, channels, messages) | Done |
 | On-device database (messages keep how they arrived) | Done |
 | Unified inbox, nodes, conversation and radio screens | Done |
-| Messaging with delivery ticks, retries and reconnect | In review; first test build next |
+| Messaging with delivery ticks, retries and reconnect | Done (test 1) |
 | Map, diagnostics, verified senders | Planned |
 
 ## Installs alongside other NOTORYX apps
