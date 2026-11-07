@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: first test build out
+## Status: test 2 out
 
-**[0.1.0 test 1](../../releases/tag/v0.1.0-test.1)** connects to MeshCore and Meshtastic radios over Bluetooth, Wi-Fi or USB (Android), shows one inbox for both meshes, sends and receives with delivery status and retries, reconnects by itself, and shows how each message travelled. It hasn't been tried on real radios yet, so please report what works.
+**[0.2.0 test 2](../../releases/tag/v0.2.0-test.2)** adds a map for both meshes (signal bars, MeshCore routes, offline tiles), diagnostics (live packet log, noise and channel activity, trace route, line of sight, why a message didn't arrive) and verified senders (QR codes, fingerprints, badges, name-clash warnings) to everything in [test 1](../../releases/tag/v0.1.0-test.1). It hasn't been tried on real radios yet, so please report what works.
 
 | Part | State |
 |---|---|
@@ -20,9 +20,11 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | On-device database (messages keep how they arrived) | Done |
 | Unified inbox, nodes, conversation and radio screens | Done |
 | Messaging with delivery ticks, retries and reconnect | Done (test 1) |
-| Map for both meshes with signal bars, routes and offline tiles | Done |
-| Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | Done |
-| Verified senders: QR codes, fingerprints, badges, name-clash warnings | In review |
+| Map for both meshes with signal bars, routes and offline tiles | Done (test 2) |
+| Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | Done (test 2) |
+| Verified senders: QR codes, fingerprints, badges, name-clash warnings | Done (test 2) |
+| Radio and repeater settings, remote admin | Planned |
+| Notifications and unread counts | Planned |
 
 ## Installs alongside other NOTORYX apps
 
