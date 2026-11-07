@@ -21,8 +21,8 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Unified inbox, nodes, conversation and radio screens | Done |
 | Messaging with delivery ticks, retries and reconnect | Done (test 1) |
 | Map for both meshes with signal bars, routes and offline tiles | Done |
-| Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | In review |
-| Verified senders | Planned |
+| Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | Done |
+| Verified senders: QR codes, fingerprints, badges, name-clash warnings | In review |
 
 ## Installs alongside other NOTORYX apps
 
