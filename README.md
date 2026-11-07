@@ -16,7 +16,8 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 | Automatic reconnect on Bluetooth, USB and Wi-Fi | Done |
 | MeshCore protocol | Done |
 | Meshtastic protocol | Done |
-| One shared model for both meshes (radios, nodes, channels, messages) | In review |
+| One shared model for both meshes (radios, nodes, channels, messages) | Done |
+| On-device database (messages keep how they arrived) | In review |
 | Unified inbox, nodes and conversation screens | Planned |
 | Messaging with delivery ticks, retries and reconnect | Planned |
 | Map, diagnostics, verified senders | Planned |
