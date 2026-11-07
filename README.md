@@ -12,8 +12,8 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 |---|---|
 | Project setup and CI | Done |
 | Android, iPhone and Mac projects, permissions, blue app icon | Done |
-| Bluetooth, USB (Android) and Wi-Fi links | In review |
-| MeshCore protocol | Planned |
+| Bluetooth, USB (Android) and Wi-Fi links | Done |
+| MeshCore protocol | In review |
 | Meshtastic protocol | Planned |
 | Unified inbox, nodes and conversation screens | Planned |
 | Messaging with delivery ticks, retries and reconnect | Planned |
