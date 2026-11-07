@@ -10,7 +10,8 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 
 | Part | State |
 |---|---|
-| Project setup and CI | In progress |
+| Project setup and CI | Done |
+| Android, iPhone and Mac projects, permissions, blue app icon | In review |
 | Bluetooth, USB and Wi-Fi links | Planned |
 | MeshCore protocol | Planned |
 | Meshtastic protocol | Planned |
