@@ -13,8 +13,9 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 | Project setup and CI | Done |
 | Android, iPhone and Mac projects, permissions, blue app icon | Done |
 | Bluetooth, USB (Android) and Wi-Fi links | Done |
+| Automatic reconnect on Bluetooth, USB and Wi-Fi | In review |
 | MeshCore protocol | In review |
-| Meshtastic protocol | Planned |
+| Meshtastic protocol | In review |
 | Unified inbox, nodes and conversation screens | Planned |
 | Messaging with delivery ticks, retries and reconnect | Planned |
 | Map, diagnostics, verified senders | Planned |
@@ -25,3 +26,7 @@ NOTORYX PRO is being written from scratch in [notoryx-PRO](https://github.com/Th
 |---|---|
 | Android | `com.bastionmesh.notoryx_pro` |
 | iPhone / Mac | `com.bastionmesh.notoryxPro` |
+
+## License
+
+NOTORYX PRO is free software under the GNU General Public License v3.0. Source: [notoryx-PRO](https://github.com/TheLogsAreScreaming/notoryx-PRO).
