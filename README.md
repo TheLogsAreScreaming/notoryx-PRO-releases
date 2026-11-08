@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 3.1 out
+## Status: test 4 out
 
-**[0.3.1 test 3.1](../../releases/tag/v0.3.1-test.3.1)** fixes Meshtastic radios that wouldn't connect over Bluetooth on Android, and adds a connection log. It's test 3 plus that fix.
+**[0.4.0 test 4](../../releases/tag/v0.4.0-test.4)** adds several radios at once, contacts beyond the radio's limit, channel management, background connection, search, delete, export and MECP emergency messages. Only the Meshtastic Bluetooth connection has been confirmed on a real radio so far, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
@@ -28,8 +28,11 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | MeshCore radio settings, repeater and room server admin | Done (test 3) |
 | Meshtastic radio settings, remote admin and telemetry history | Done (test 3) |
 | Notifications, unread counts, mute and area presets | Done (test 3) |
-| Several radios on one mesh at once, contacts beyond the radio's limit, channel management | Done, in the next test build |
-| Other-mesh traffic, MECP emergency messages, MQTT feeds, channel bridging, translations | Planned |
+| Several radios at once, contacts beyond the radio's limit, channel management | Done (test 4) |
+| Background connection, search, delete, export | Done (test 4) |
+| MECP emergency messages | Done (test 4) |
+| Other-mesh traffic | In review |
+| MQTT feeds, channel bridging, translations | Planned |
 
 ## Installs alongside other NOTORYX apps
 
