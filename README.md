@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 2 out
+## Status: test 3 out
 
-**[0.2.0 test 2](../../releases/tag/v0.2.0-test.2)** adds a map for both meshes (signal bars, MeshCore routes, offline tiles), diagnostics (live packet log, noise and channel activity, trace route, line of sight, why a message didn't arrive) and verified senders (QR codes, fingerprints, badges, name-clash warnings) to everything in [test 1](../../releases/tag/v0.1.0-test.1). It hasn't been tried on real radios yet, so please report what works.
+**[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
 | Part | State |
 |---|---|
@@ -23,9 +23,11 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Map for both meshes with signal bars, routes and offline tiles | Done (test 2) |
 | Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | Done (test 2) |
 | Verified senders: QR codes, fingerprints, badges, name-clash warnings | Done (test 2) |
-| MeshCore radio settings, repeater and room server admin | In review |
-| Meshtastic radio settings and remote admin | Planned |
-| Notifications and unread counts | Planned |
+| MeshCore radio settings, repeater and room server admin | Done (test 3) |
+| Meshtastic radio settings, remote admin and telemetry history | Done (test 3) |
+| Notifications, unread counts, mute and area presets | Done (test 3) |
+| Several radios on one mesh at once | In review |
+| Contacts beyond the radio's limit, other-mesh traffic, MECP emergency messages, MQTT feeds, channel bridging, translations | Planned |
 
 ## Installs alongside other NOTORYX apps
 
