@@ -23,7 +23,8 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Map for both meshes with signal bars, routes and offline tiles | Done (test 2) |
 | Diagnostics: packet log, radio readings, trace route, line of sight, delivery hints | Done (test 2) |
 | Verified senders: QR codes, fingerprints, badges, name-clash warnings | Done (test 2) |
-| Radio and repeater settings, remote admin | Planned |
+| MeshCore radio settings, repeater and room server admin | In review |
+| Meshtastic radio settings and remote admin | Planned |
 | Notifications and unread counts | Planned |
 
 ## Installs alongside other NOTORYX apps
