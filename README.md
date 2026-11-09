@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 7 out
+## Status: test 8 out
 
-**[0.7.0 test 7](../../releases/tag/v0.7.0-test.7)** adds app lock, places with GPX and geofences, a link planner, team setup sharing and auto-replies. Nothing new in this build has been tried on a real radio yet, so please report what works.
+**[0.8.0 test 8](../../releases/tag/v0.8.0-test.8)** adds optional encryption for saved messages. Nothing new in this build has been tried on a real phone yet, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
@@ -34,6 +34,7 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Other-mesh traffic, MQTT feeds, channel bridging, Spanish | Done (test 5) |
 | Themes, restore, MAYDAY through mute, field reports, distress beacon, forwarding, scheduled messages, airtime savers | Done (test 6) |
 | App lock, GPX and geofences, link planner, team setup, auto-replies | Done (test 7) |
+| Optional encryption for saved messages | Done (test 8) |
 
 ## Installs alongside other NOTORYX apps
 
