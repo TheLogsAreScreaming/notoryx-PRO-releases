@@ -31,8 +31,7 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Several radios at once, contacts beyond the radio's limit, channel management | Done (test 4) |
 | Background connection, search, delete, export | Done (test 4) |
 | MECP emergency messages | Done (test 4) |
-| Other-mesh traffic | In review |
-| MQTT feeds, channel bridging, translations | Planned |
+| Other-mesh traffic, MQTT feeds, channel bridging, Spanish | Done (test 5) |
 
 ## Installs alongside other NOTORYX apps
 
