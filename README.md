@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 4 out
+## Status: test 5 out
 
-**[0.4.0 test 4](../../releases/tag/v0.4.0-test.4)** adds several radios at once, contacts beyond the radio's limit, channel management, background connection, search, delete, export and MECP emergency messages. Only the Meshtastic Bluetooth connection has been confirmed on a real radio so far, so please report what works.
+**[0.5.0 test 5](../../releases/tag/v0.5.0-test.5)** fixes the Meshtastic Bluetooth connection failure in test 4 and adds other-mesh traffic, MQTT feeds, channel bridging, Spanish, more radio settings and saved traces. Nothing new in this build has been tried on a real radio yet, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
