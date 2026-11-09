@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 8 out
+## Status: test 9 out
 
-**[0.8.0 test 8](../../releases/tag/v0.8.0-test.8)** adds optional encryption for saved messages. Nothing new in this build has been tried on a real phone yet, so please report what works.
+**[0.9.0 test 9](../../releases/tag/v0.9.0-test.9)** prepares release builds for Google Play and adds a privacy policy draft and a first accessibility report. Nothing new has been tried on a real phone yet, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
