@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 10 out
+## Status: test 11 out
 
-**[0.10.0 test 10](../../releases/tag/v0.10.0-test.10)** is the first build with a Windows download (64-bit, unsigned, untested). Nothing new has been tried on real hardware yet, so please report what works.
+**[0.11.0 test 11](../../releases/tag/v0.11.0-test.11)** adds a demo mode that needs no radio, an About screen with licences, French and German, and Windows notifications and USB radios. Nothing new has been tried on real hardware yet, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
@@ -36,6 +36,7 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | App lock, GPX and geofences, link planner, team setup, auto-replies | Done (test 7) |
 | Optional encryption for saved messages | Done (test 8) |
 | Windows build (untested) | Done (test 10) |
+| Demo mode, About and licences, French and German, Windows notifications and USB | Done (test 11) |
 
 ## Installs alongside other NOTORYX apps
 
