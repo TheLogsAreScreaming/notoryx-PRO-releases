@@ -4,9 +4,9 @@
 
 This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: test 14 out
+## Status: test 15 out
 
-**[0.14.0 test 14](../../releases/tag/v0.14.0-test.14)** adds trusted nodes, a network diagram, off-route alerts, a MeshCore route picker, a nearby repeater test, shareable trace cards, a timeline, automations (webhooks off by default) and a day replay of team positions. None of it has been tried on real radios or phones yet, so please report what works.
+**[0.15.0 test 15](../../releases/tag/v0.15.0-test.15)** adds identity key backup for MeshCore radios, better repeater names (shared-ID memory and an optional, range-checked online lookup), a node journal, offline checklists, ready-made auto-replies and new mesh colours. None of it has been tried on real radios or phones yet, so please report what works.
 
 **[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
 
@@ -40,6 +40,7 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Community moderation (reports, Flagged label, appeals) | Done (test 12) |
 | Password-protected backups, Meshtastic demo, Portuguese and Italian | Done (test 13) |
 | Trusted nodes, network diagram, off-route alerts, route picker, nearby repeater test, trace cards, timeline, automations, day replay | Done (test 14, untested on hardware) |
+| Identity key backup, repeater names, node journal, checklists, ready-made auto-replies, mesh colours | Done (test 15, untested on hardware) |
 
 ## Installs alongside other NOTORYX apps
 
