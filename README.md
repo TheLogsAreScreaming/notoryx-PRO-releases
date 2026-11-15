@@ -2,13 +2,48 @@
 
 **One app for MeshCore and Meshtastic LoRa radios.** Part of the **NOTORYX** off-grid communications family. **No Towers. No Limits.**
 
-This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
+This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. Get them from **[Releases](../../releases)**. There's no iPhone build yet.
 
-## Status: test 17 out
+<table>
+  <tr>
+    <td><img src="screenshots/1-inbox.png" width="180" alt="Inbox with MeshCore and Meshtastic channels side by side"></td>
+    <td><img src="screenshots/3-nodes.png" width="180" alt="Node list for both meshes with signal bars"></td>
+    <td><img src="screenshots/line-of-sight.png" width="180" alt="Line of sight with a terrain profile and the Fresnel zone"></td>
+    <td><img src="screenshots/compass.png" width="180" alt="Compass arrow pointing to a node"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/4-radios.png" width="180" alt="Two radios connected at once"></td>
+    <td><img src="screenshots/glass-background.png" width="180" alt="Inbox on a gradient background with a glass panel"></td>
+    <td><img src="screenshots/6-emergency.png" width="180" alt="MECP emergency message composer"></td>
+    <td><img src="screenshots/8-night-ops.png" width="180" alt="Night Ops theme"></td>
+  </tr>
+</table>
 
-**[0.17.0 test 17](../../releases/tag/v0.17.0-test.17)** keeps the Send report button above the keyboard. Test 16 was checked on a real phone and MeshCore radio: it connected, sent on a test channel, and a moderation report reached the moderators. Test 16 made emergencies neon green and used MeshCore red / Meshtastic blue in every theme; test 15 added identity key backup, better repeater names, a node journal, offline checklists and ready-made auto-replies. Most features still haven't been tried on real radios, so please report what works.
+Screenshots from demo mode (pretend radios, made-up places). More in the [source README](https://github.com/TheLogsAreScreaming/notoryx-PRO#readme).
 
-**[0.3.0 test 3](../../releases/tag/v0.3.0-test.3)** adds radio settings for both meshes (with area presets), repeater and room server admin, Meshtastic remote admin and telemetry history, unread counts, mute and notifications to everything in [test 2](../../releases/tag/v0.2.0-test.2). It hasn't been tried on real radios yet, so please report what works.
+## Status: test 20 out (15 November 2026)
+
+**[0.20.0 test 20](../../releases/tag/v0.20.0-test.20)** (build 25) stops nodes whose clock was never set from showing as "heard 20667 d ago". [Test 19](../../releases/tag/v0.19.0-test.19) fixed the line-of-sight numbers and lists hidden under the navigation bar. [Test 18](../../releases/tag/v0.18.0-test.18) added a colour or photo for each node, a compass that points to a node, photo and gradient backgrounds with glass panels, and line of sight with a terrain profile from Open-Meteo.
+
+**What's been checked on real hardware:** test 19 on a phone with a MeshCore and a Meshtastic radio; test 18's new features and test 20's fix on a phone. Most features added since test 14 still haven't been tried on real radios, so please report what works.
+
+## Install
+
+Each test updates the previous one in place and keeps your messages.
+
+| File | For |
+|---|---|
+| `NOTORYX-PRO-0.20.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.20.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.20.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.20.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+
+- **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
+- **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
+- **Windows:** not code-signed. Unzip and run `notoryx_pro.exe`; if SmartScreen warns, choose **More info** → **Run anyway**.
+- Each release has `SHA256SUMS.txt` to check the files.
+
+## Progress
 
 | Part | State |
 |---|---|
@@ -41,8 +76,12 @@ This repository hosts builds of NOTORYX PRO for Android, iPhone and Mac. Get the
 | Password-protected backups, Meshtastic demo, Portuguese and Italian | Done (test 13) |
 | Trusted nodes, network diagram, off-route alerts, route picker, nearby repeater test, trace cards, timeline, automations, day replay | Done (test 14, untested on hardware) |
 | Identity key backup, repeater names, node journal, checklists, ready-made auto-replies, mesh colours | Done (test 15, untested on hardware) |
-| Neon-green emergencies, mesh colours in all themes | Done (test 16, untested on hardware) |
+| Neon-green emergencies, mesh colours in all themes | Done (test 16, checked on a phone with a MeshCore radio) |
 | Report form Send above the keyboard | Done (test 17, checked on a phone) |
+| Node colours and photos, compass to a node, glass backgrounds, line of sight with terrain | Done (test 18, checked on a phone) |
+| Line-of-sight numbers and lists under the navigation bar fixed | Done (test 19, checked on a phone with a MeshCore and a Meshtastic radio) |
+| No heard times from radios whose clock was never set | Done (test 20, checked on a phone) |
+| iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
 
