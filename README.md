@@ -21,11 +21,11 @@ This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. G
 
 Screenshots from demo mode (pretend radios, made-up places). More in the [source README](https://github.com/TheLogsAreScreaming/notoryx-PRO#readme).
 
-## Status: test 20 out (15 November 2026)
+## Status: test 22 out (18 November 2026)
 
-**[0.20.0 test 20](../../releases/tag/v0.20.0-test.20)** (build 25) stops nodes whose clock was never set from showing as "heard 20667 d ago". [Test 19](../../releases/tag/v0.19.0-test.19) fixed the line-of-sight numbers and lists hidden under the navigation bar. [Test 18](../../releases/tag/v0.18.0-test.18) added a colour or photo for each node, a compass that points to a node, photo and gradient backgrounds with glass panels, and line of sight with a terrain profile from Open-Meteo.
+**[0.22.0 test 22](../../releases/tag/v0.22.0-test.22)** (build 27) adds a live **Traffic** map: packets the radio hears are drawn hop by hop from sender through each repeater to you, coloured by type, with a route card and legend. It also adds a new map toolbar and custom Meshtastic radio settings (bandwidth, spreading factor, coding rate, exact frequency). [Test 21](../../releases/tag/v0.21.0-test.21) made failed map tiles download again. [Test 20](../../releases/tag/v0.20.0-test.20) stopped nodes whose clock was never set from showing as "heard 20667 d ago".
 
-**What's been checked on real hardware:** test 19 on a phone with a MeshCore and a Meshtastic radio; test 18's new features and test 20's fix on a phone. Most features added since test 14 still haven't been tried on real radios, so please report what works.
+**What's been checked on real hardware:** test 19 on a phone with a MeshCore and a Meshtastic radio; test 20's fix on a phone. Test 22 opens on a phone and keeps messages, but the Traffic map hasn't been watched with live packets yet and the custom Meshtastic radio settings haven't been tried on a radio, so please report what works.
 
 ## Install
 
@@ -33,10 +33,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.20.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.20.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.20.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.20.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.22.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.22.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.22.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.22.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
@@ -81,6 +81,8 @@ Each test updates the previous one in place and keeps your messages.
 | Node colours and photos, compass to a node, glass backgrounds, line of sight with terrain | Done (test 18, checked on a phone) |
 | Line-of-sight numbers and lists under the navigation bar fixed | Done (test 19, checked on a phone with a MeshCore and a Meshtastic radio) |
 | No heard times from radios whose clock was never set | Done (test 20, checked on a phone) |
+| Map tiles that fail to download are fetched again | Done (test 21, untested on hardware) |
+| Live Traffic map, map toolbar, custom Meshtastic radio settings | Done (test 22, untested on radios) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
