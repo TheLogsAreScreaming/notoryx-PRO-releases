@@ -21,11 +21,11 @@ This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. G
 
 Screenshots from demo mode (pretend radios, made-up places). More in the [source README](https://github.com/TheLogsAreScreaming/notoryx-PRO#readme).
 
-## Status: test 23 out (18 November 2026)
+## Status: test 24 out (18 November 2026)
 
-**[0.23.0 test 23](../../releases/tag/v0.23.0-test.23)** (build 28) fixes a false "No internet" message and grey map after zooming, fills in map tiles that failed to download, and shows a Meshtastic telemetry interval of "never" as **Never**. [Test 22](../../releases/tag/v0.22.0-test.22) added the live **Traffic** map (packets drawn hop by hop from sender through each repeater to you), a new map toolbar and custom Meshtastic radio settings.
+**[0.24.0 test 24](../../releases/tag/v0.24.0-test.24)** (build 29) marks nodes not heard for a while as **stale**, adds **range rings** around your radio on the map, and lets you **ignore** nodes (hidden and silent; on Meshtastic firmware 2.5.13 or newer the radio's own ignored flag is set too). [Test 23](../../releases/tag/v0.23.0-test.23) fixed a false "No internet" message and grey map after zooming, and [test 22](../../releases/tag/v0.22.0-test.22) added the live **Traffic** map.
 
-**What's been checked on real hardware:** test 23's fixes on a phone; test 22's Traffic map live with a MeshCore radio and its custom Meshtastic radio settings on a Meshtastic radio (saved, read back, then restored). Test 19 on a phone with a MeshCore and a Meshtastic radio.
+**What's been checked on real hardware:** nothing in test 24 yet, so please report what works. Test 23's fixes were checked on a phone; test 22's Traffic map live with a MeshCore radio and its custom Meshtastic radio settings on a Meshtastic radio (saved, read back, then restored). Test 19 on a phone with a MeshCore and a Meshtastic radio.
 
 ## Install
 
@@ -33,10 +33,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.23.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.23.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.23.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.23.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.24.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.24.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.24.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.24.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
@@ -84,6 +84,7 @@ Each test updates the previous one in place and keeps your messages.
 | Map tiles that fail to download are fetched again | Done (test 21, untested on hardware) |
 | Live Traffic map, map toolbar, custom Meshtastic radio settings | Done (test 22, checked on a phone with a MeshCore and a Meshtastic radio) |
 | No false "No internet" on the map, blank tiles refill, telemetry "Never" | Done (test 23, checked on a phone) |
+| Stale-node badge, map range rings, ignored nodes | Done (test 24, untested on hardware) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
