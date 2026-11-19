@@ -25,7 +25,7 @@ Screenshots from demo mode (pretend radios, made-up places). More in the [source
 
 **[0.24.0 test 24](../../releases/tag/v0.24.0-test.24)** (build 29) marks nodes not heard for a while as **stale**, adds **range rings** around your radio on the map, and lets you **ignore** nodes (hidden and silent; on Meshtastic firmware 2.5.13 or newer the radio's own ignored flag is set too). [Test 23](../../releases/tag/v0.23.0-test.23) fixed a false "No internet" message and grey map after zooming, and [test 22](../../releases/tag/v0.22.0-test.22) added the live **Traffic** map.
 
-**What's been checked on real hardware:** nothing in test 24 yet, so please report what works. Test 23's fixes were checked on a phone; test 22's Traffic map live with a MeshCore radio and its custom Meshtastic radio settings on a Meshtastic radio (saved, read back, then restored). Test 19 on a phone with a MeshCore and a Meshtastic radio.
+**What's been checked on real hardware:** test 24's stale badges, range rings, and ignoring and showing again a node, on a phone with a Meshtastic radio; ignored nodes staying silent is not checked yet. Test 23's fixes were checked on a phone; test 22's Traffic map live with a MeshCore radio and its custom Meshtastic radio settings on a Meshtastic radio (saved, read back, then restored). Test 19 on a phone with a MeshCore and a Meshtastic radio.
 
 ## Install
 
@@ -84,7 +84,7 @@ Each test updates the previous one in place and keeps your messages.
 | Map tiles that fail to download are fetched again | Done (test 21, untested on hardware) |
 | Live Traffic map, map toolbar, custom Meshtastic radio settings | Done (test 22, checked on a phone with a MeshCore and a Meshtastic radio) |
 | No false "No internet" on the map, blank tiles refill, telemetry "Never" | Done (test 23, checked on a phone) |
-| Stale-node badge, map range rings, ignored nodes | Done (test 24, untested on hardware) |
+| Stale-node badge, map range rings, ignored nodes | Done (test 24, mostly checked on a phone with a Meshtastic radio) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
