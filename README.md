@@ -25,7 +25,7 @@ Screenshots from demo mode (pretend radios, made-up places). More in the [source
 
 **[0.26.0 test 26](../../releases/tag/v0.26.0-test.26)** (build 31) releases a Meshtastic radio's **Bluetooth link when you leave the app with Back**, so it shows up in the next scan, and moves **range-ring labels off node pins**. [Test 25](../../releases/tag/v0.25.0-test.25) fixed a **blank map** when it opened on a connected radio, and [test 24](../../releases/tag/v0.24.0-test.24) added **stale** nodes, **range rings** and **ignored** nodes.
 
-**What's been checked on real hardware:** nothing in test 26 yet, so please report what works. Test 25's blank-map fix on a phone with a Meshtastic radio. Test 24's stale badges, range rings, and ignoring and showing again a node, on a phone with a Meshtastic radio; ignored nodes staying silent is not checked yet. Test 22's Traffic map live with a MeshCore radio. Test 19 on a phone with a MeshCore and a Meshtastic radio.
+**What's been checked on real hardware:** test 26 on a phone with a Meshtastic radio: Back releases the radio and it shows up in the next scan, Home keeps it connected, the map opens straight away, and ring labels are mostly clear of pins. Test 25's blank-map fix on a phone with a Meshtastic radio. Test 24's stale badges, range rings, and ignoring and showing again a node, on a phone with a Meshtastic radio; ignored nodes staying silent is not checked yet. Test 22's Traffic map live with a MeshCore radio. Test 19 on a phone with a MeshCore and a Meshtastic radio.
 
 ## Install
 
@@ -86,7 +86,7 @@ Each test updates the previous one in place and keeps your messages.
 | No false "No internet" on the map, blank tiles refill, telemetry "Never" | Done (test 23, checked on a phone) |
 | Stale-node badge, map range rings, ignored nodes | Done (test 24, mostly checked on a phone with a Meshtastic radio) |
 | No blank map on opening; sane stale ages; ring labels clear of controls | Done (test 25, map fix checked on a phone) |
-| Bluetooth released when leaving with Back; ring labels off node pins | Done (test 26, untested on hardware) |
+| Bluetooth released when leaving with Back; ring labels off node pins | Done (test 26, checked on a phone; innermost label can still touch a pin) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
