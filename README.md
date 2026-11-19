@@ -25,7 +25,7 @@ Screenshots from demo mode (pretend radios, made-up places). More in the [source
 
 **[0.27.0 test 27](../../releases/tag/v0.27.0-test.27)** (build 32) stops **"stale · 900 d"** on MeshCore repeaters with an unset clock, keeps **ignored** MeshCore nodes quiet on channels, and draws **range-ring labels over pins**. [Test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back, and [test 25](../../releases/tag/v0.25.0-test.25) fixed a **blank map** on opening.
 
-**What's been checked on real hardware:** nothing in test 27 yet, so please report what works. Test 26 on a phone with a Meshtastic radio: Back releases the radio, Home keeps it connected, the map opens straight away. Test 25's blank-map fix. Test 24's stale badges, range rings and ignoring a node. Test 22's Traffic map live with a MeshCore radio.
+**What's been checked on real hardware:** test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, and ring labels are readable over pins. Test 26 on a phone with a Meshtastic radio: Back releases the radio, Home keeps it connected, the map opens straight away. Test 25's blank-map fix. Test 24's stale badges, range rings and ignoring a node. Test 22's Traffic map live with a MeshCore radio.
 
 ## Install
 
@@ -87,7 +87,7 @@ Each test updates the previous one in place and keeps your messages.
 | Stale-node badge, map range rings, ignored nodes | Done (test 24, mostly checked on a phone with a Meshtastic radio) |
 | No blank map on opening; sane stale ages; ring labels clear of controls | Done (test 25, map fix checked on a phone) |
 | Bluetooth released when leaving with Back; ring labels off node pins | Done (test 26, checked on a phone; innermost label can still touch a pin) |
-| MeshCore last-heard from your radio, ignored MeshCore channel posts silenced, ring labels over pins | Done (test 27, untested on hardware) |
+| MeshCore last-heard from your radio, ignored MeshCore channel posts silenced, ring labels over pins | Done (test 27, checked on a phone) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
