@@ -21,11 +21,11 @@ This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. G
 
 Screenshots from demo mode (pretend radios, made-up places). More in the [source README](https://github.com/TheLogsAreScreaming/notoryx-PRO#readme).
 
-## Status: test 27 out (19 November 2026)
+## Status: test 28 out (19 November 2026)
 
-**[0.27.0 test 27](../../releases/tag/v0.27.0-test.27)** (build 32) stops **"stale · 900 d"** on MeshCore repeaters with an unset clock, keeps **ignored** MeshCore nodes quiet on channels, and draws **range-ring labels over pins**. [Test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back, and [test 25](../../releases/tag/v0.25.0-test.25) fixed a **blank map** on opening.
+**[0.28.0 test 28](../../releases/tag/v0.28.0-test.28)** (build 33) clears the **"stale · 900 d"** dates left on MeshCore nodes saved by earlier tests. [Test 27](../../releases/tag/v0.27.0-test.27) stopped new wrong MeshCore dates, kept **ignored** MeshCore nodes quiet on channels and drew **range-ring labels over pins**, and [test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back.
 
-**What's been checked on real hardware:** test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, and ring labels are readable over pins. Test 26 on a phone with a Meshtastic radio: Back releases the radio, Home keeps it connected, the map opens straight away. Test 25's blank-map fix. Test 24's stale badges, range rings and ignoring a node. Test 22's Traffic map live with a MeshCore radio.
+**What's been checked on real hardware:** nothing in test 28 yet, so please report what works. Test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected. Test 25's blank-map fix.
 
 ## Install
 
@@ -33,10 +33,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.27.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.27.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.27.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.27.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.28.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.28.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.28.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.28.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
@@ -88,6 +88,7 @@ Each test updates the previous one in place and keeps your messages.
 | No blank map on opening; sane stale ages; ring labels clear of controls | Done (test 25, map fix checked on a phone) |
 | Bluetooth released when leaving with Back; ring labels off node pins | Done (test 26, checked on a phone; innermost label can still touch a pin) |
 | MeshCore last-heard from your radio, ignored MeshCore channel posts silenced, ring labels over pins | Done (test 27, checked on a phone) |
+| Old wrong MeshCore last-heard dates cleared | Done (test 28, untested on hardware) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
