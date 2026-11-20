@@ -19,7 +19,7 @@ This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. G
   </tr>
 </table>
 
-Screenshots from demo mode (pretend radios, made-up places). More in the [source README](https://github.com/TheLogsAreScreaming/notoryx-PRO#readme).
+Screenshots from demo mode (pretend radios, made-up places).
 
 ## Status: test 28 out (19 November 2026)
 
@@ -100,4 +100,8 @@ Each test updates the previous one in place and keeps your messages.
 
 ## License
 
-NOTORYX PRO is free software under the GNU General Public License v3.0. Source: [notoryx-PRO](https://github.com/TheLogsAreScreaming/notoryx-PRO).
+NOTORYX PRO is free software under the GNU General Public License v3.0. To get the source code for any build, [open an issue](../../issues/new) here.
+
+## Problems or ideas
+
+Open an issue in this repository with your phone or computer model, the app version (from the About screen) and your radio model and firmware.
