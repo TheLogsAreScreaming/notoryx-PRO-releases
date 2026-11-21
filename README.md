@@ -25,6 +25,8 @@ Screenshots from demo mode (pretend radios, made-up places).
 
 **[0.28.0 test 28](../../releases/tag/v0.28.0-test.28)** (build 33) clears the **"stale · 900 d"** dates left on MeshCore nodes saved by earlier tests. [Test 27](../../releases/tag/v0.27.0-test.27) stopped new wrong MeshCore dates, kept **ignored** MeshCore nodes quiet on channels and drew **range-ring labels over pins**, and [test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back.
 
+**Coming in the next build: SARNEG code words.** Send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
+
 **What's been checked on real hardware:** test 28 on a phone: the old "stale · 900 d" MeshCore dates are gone (none over 12 days). Test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected. Test 25's blank-map fix.
 
 ## Install
