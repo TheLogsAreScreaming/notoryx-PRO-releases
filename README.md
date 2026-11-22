@@ -21,9 +21,9 @@ This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. G
 
 Screenshots from demo mode (pretend radios, made-up places).
 
-## Status: test 30 out (21 November 2026)
+## Status: test 31 out (21 November 2026)
 
-**[0.30.0 test 30](../../releases/tag/v0.30.0-test.30)** (build 35) makes a screen reader say "Code word hidden" while the SARNEG word is masked. [Test 29](../../releases/tag/v0.29.0-test.29) added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on, and a received `[SARNEG]` message decodes with a tap. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg). [Test 28](../../releases/tag/v0.28.0-test.28) cleared the **"stale · 900 d"** dates left on MeshCore nodes saved by earlier tests. [Test 27](../../releases/tag/v0.27.0-test.27) stopped new wrong MeshCore dates, kept **ignored** MeshCore nodes quiet on channels and drew **range-ring labels over pins**, and [test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back.
+**[0.31.0 test 31](../../releases/tag/v0.31.0-test.31)** (build 36) blocks screenshots and screen recording on SARNEG screens (Android, Windows, and Mac where macOS allows it), clears SARNEG text from the clipboard and screens after a minute, and adds a **Random word** button and a warning for well-known code words. [Test 30](../../releases/tag/v0.30.0-test.30) made a screen reader say "Code word hidden" while the SARNEG word is masked. [Test 29](../../releases/tag/v0.29.0-test.29) added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on, and a received `[SARNEG]` message decodes with a tap. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg). [Test 28](../../releases/tag/v0.28.0-test.28) cleared the **"stale · 900 d"** dates left on MeshCore nodes saved by earlier tests. [Test 27](../../releases/tag/v0.27.0-test.27) stopped new wrong MeshCore dates, kept **ignored** MeshCore nodes quiet on channels and drew **range-ring labels over pins**, and [test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back.
 
 **What's been checked on real hardware:** test 29 on a phone: the SARNEG word check, Show/Hide, share QR, and coding and decoding in a conversation on the demo radio (not yet over the air). Test 28 on a phone: the old "stale · 900 d" MeshCore dates are gone (none over 12 days). Test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected. Test 25's blank-map fix.
 
@@ -33,10 +33,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.30.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.30.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.30.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.30.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.31.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.31.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.31.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.31.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
