@@ -21,13 +21,13 @@ Connect a MeshCore companion and a Meshtastic node at the same time, and chat, m
   </tr>
 </table>
 
-Screenshots from demo mode (pretend radios, made-up names and places) in the new default **BLACKOUT** look.
+Screenshots from demo mode (pretend radios, made-up names and places) in the default **BLACKOUT** look.
 
-## Status: test 31 out (21 November 2026)
+## Status: test 32 out (22 November 2026)
 
-**[0.31.0 test 31](../../releases/tag/v0.31.0-test.31)** (build 36) is the latest test build. Tests 29 to 31 added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on (or a **Random word**), and a received `[SARNEG]` message decodes with a tap. The word hides itself after 30 seconds, copied SARNEG text leaves the clipboard after a minute, well-known words get a warning, and screenshots are blocked on SARNEG screens. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
+**[0.32.0 test 32](../../releases/tag/v0.32.0-test.32)** (build 37) brings the **BLACKOUT** look: the new steel eagle-N app icon on Android, Mac and Windows, and BLACKOUT (frost on matte black) as the default theme. The Seasonal and Pink Overload looks are retired; if you had one picked, the app switches to BLACKOUT. Blaze, Neon Anarchy, Tactical, Bare Beauty, Okabe-Ito and Night Ops stay. Test 32 hasn't been tried on a phone or radio yet.
 
-**Coming in the next test build:** the **BLACKOUT** look (frost on matte black) becomes the default, with the new steel eagle-N app icon on Android, Mac and Windows. The Seasonal and Pink Overload looks are retired; if you had one picked, the app switches to BLACKOUT. Blaze, Neon Anarchy, Tactical, Bare Beauty, Okabe-Ito and Night Ops stay.
+[Tests 29 to 31](../../releases/tag/v0.32.0-test.31) added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on (or a **Random word**), and a received `[SARNEG]` message decodes with a tap. The word hides itself after 30 seconds, copied SARNEG text leaves the clipboard after a minute, well-known words get a warning, and screenshots are blocked on SARNEG screens. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
 
 **What's been checked on real hardware:** tests 29 to 31 on a phone: the SARNEG word check, Show/Hide, share QR, coding and decoding on the demo radio (not yet over the air), and a black screenshot on SARNEG screens. Test 28: the old "stale · 900 d" MeshCore dates are gone. Test 27 with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected.
 
@@ -47,10 +47,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.31.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.31.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.31.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.31.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.32.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.32.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.32.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.32.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
@@ -106,7 +106,7 @@ Each test updates the previous one in place and keeps your messages.
 | SARNEG code words for numbers in messages | Done (test 29, checked on a phone, not yet over the air) |
 | SARNEG: screen reader says "Code word hidden" while masked | Done (test 30, checked on a phone) |
 | SARNEG: auto-clear, Random word, weak-word warning, screenshot block | Done (test 31, screenshot block checked on a phone) |
-| BLACKOUT look as the default and the new app icon | Done, arrives in the next test build |
+| BLACKOUT look as the default and the new app icon | Done (test 32, untested on hardware) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
