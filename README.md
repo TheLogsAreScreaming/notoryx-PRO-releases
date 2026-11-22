@@ -1,31 +1,45 @@
+<p align="center"><img src="notoryx-pro-banner.png" alt="NOTORYX PRO: engineered for independence"></p>
+
 # NOTORYX PRO downloads
 
 **One app for MeshCore and Meshtastic LoRa radios.** Part of the **NOTORYX** off-grid communications family. **No Towers. No Limits.**
 
-This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. Get them from **[Releases](../../releases)**. There's no iPhone build yet.
+Connect a MeshCore companion and a Meshtastic node at the same time, and chat, map and manage both from one inbox, one map and one node list. This repository hosts test builds of NOTORYX PRO for Android, Mac and Windows. Get them from **[Releases](../../releases)**. There's no iPhone build yet.
 
 <table>
   <tr>
     <td><img src="screenshots/1-inbox.png" width="180" alt="Inbox with MeshCore and Meshtastic channels side by side"></td>
     <td><img src="screenshots/3-nodes.png" width="180" alt="Node list for both meshes with signal bars"></td>
-    <td><img src="screenshots/line-of-sight.png" width="180" alt="Line of sight with a terrain profile and the Fresnel zone"></td>
-    <td><img src="screenshots/compass.png" width="180" alt="Compass arrow pointing to a node"></td>
+    <td><img src="screenshots/map.png" width="180" alt="Map with MeshCore and Meshtastic nodes and the map toolbar"></td>
+    <td><img src="screenshots/sarneg-compose.png" width="180" alt="SARNEG composer turning 17S 4823 into code letters"></td>
   </tr>
   <tr>
-    <td><img src="screenshots/4-radios.png" width="180" alt="Two radios connected at once"></td>
-    <td><img src="screenshots/glass-background.png" width="180" alt="Inbox on a gradient background with a glass panel"></td>
-    <td><img src="screenshots/6-emergency.png" width="180" alt="MECP emergency message composer"></td>
-    <td><img src="screenshots/8-night-ops.png" width="180" alt="Night Ops theme"></td>
+    <td><img src="screenshots/4-radios.png" width="180" alt="A MeshCore and a Meshtastic radio connected at once"></td>
+    <td><img src="screenshots/line-of-sight.png" width="180" alt="Line of sight with a terrain profile and the Fresnel zone"></td>
+    <td><img src="screenshots/compass.png" width="180" alt="Compass arrow pointing to a node"></td>
+    <td><img src="screenshots/7-themes.png" width="180" alt="Theme picker with BLACKOUT selected"></td>
   </tr>
 </table>
 
-Screenshots from demo mode (pretend radios, made-up places).
+Screenshots from demo mode (pretend radios, made-up names and places) in the new default **BLACKOUT** look.
 
 ## Status: test 31 out (21 November 2026)
 
-**[0.31.0 test 31](../../releases/tag/v0.31.0-test.31)** (build 36) blocks screenshots and screen recording on SARNEG screens (Android, Windows, and Mac where macOS allows it), clears SARNEG text from the clipboard and screens after a minute, and adds a **Random word** button and a warning for well-known code words. [Test 30](../../releases/tag/v0.30.0-test.30) made a screen reader say "Code word hidden" while the SARNEG word is masked. [Test 29](../../releases/tag/v0.29.0-test.29) added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on, and a received `[SARNEG]` message decodes with a tap. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg). [Test 28](../../releases/tag/v0.28.0-test.28) cleared the **"stale · 900 d"** dates left on MeshCore nodes saved by earlier tests. [Test 27](../../releases/tag/v0.27.0-test.27) stopped new wrong MeshCore dates, kept **ignored** MeshCore nodes quiet on channels and drew **range-ring labels over pins**, and [test 26](../../releases/tag/v0.26.0-test.26) released a Meshtastic radio when you leave the app with Back.
+**[0.31.0 test 31](../../releases/tag/v0.31.0-test.31)** (build 36) is the latest test build. Tests 29 to 31 added **SARNEG code words**: grids, frequencies and times go out as letters from a 10-letter word your team agrees on (or a **Random word**), and a received `[SARNEG]` message decodes with a tap. The word hides itself after 30 seconds, copied SARNEG text leaves the clipboard after a minute, well-known words get a warning, and screenshots are blocked on SARNEG screens. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
 
-**What's been checked on real hardware:** test 29 on a phone: the SARNEG word check, Show/Hide, share QR, and coding and decoding in a conversation on the demo radio (not yet over the air). Test 28 on a phone: the old "stale · 900 d" MeshCore dates are gone (none over 12 days). Test 27 on a phone with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected. Test 25's blank-map fix.
+**Coming in the next test build:** the **BLACKOUT** look (frost on matte black) becomes the default, with the new steel eagle-N app icon on Android, Mac and Windows. The Seasonal and Pink Overload looks are retired; if you had one picked, the app switches to BLACKOUT. Blaze, Neon Anarchy, Tactical, Bare Beauty, Okabe-Ito and Night Ops stay.
+
+**What's been checked on real hardware:** tests 29 to 31 on a phone: the SARNEG word check, Show/Hide, share QR, coding and decoding on the demo radio (not yet over the air), and a black screenshot on SARNEG screens. Test 28: the old "stale · 900 d" MeshCore dates are gone. Test 27 with a Meshtastic and a MeshCore radio: an ignored MeshCore node's channel post was saved without a notification, synced MeshCore nodes show real last-heard times, ring labels are readable over pins. Test 26: Back releases the radio, Home keeps it connected.
+
+## What it does
+
+- **Both meshes, one app:** up to four MeshCore and Meshtastic radios at once over Bluetooth, USB (Android and Windows) or Wi-Fi, with automatic reconnect. **Demo mode** lets you try it without a radio.
+- **Messaging:** one inbox, delivery ticks and retries, channels shared by QR code, forwarding, scheduled messages, search, export, auto-replies and SARNEG code words.
+- **Map:** both meshes on one map with signal bars, offline tiles you've viewed, a live Traffic map, range rings, stale-node badges, places and GPX, compass to a node and line of sight with terrain.
+- **Diagnostics:** packet log, noise floor, trace route with trace cards, nearby repeater test, network diagram and delivery hints.
+- **Trust and safety:** verified senders, trusted nodes, ignore a node, MECP emergency messages, MAYDAY through mute, distress beacon, SALUTE and 9-Line reports, checklists.
+- **Radio admin:** MeshCore and Meshtastic radio settings, repeater and room server admin, remote admin over the mesh.
+- **Your look, your data:** seven looks, glass backgrounds, node colours and photos, app lock, optional encrypted message storage, password-protected backups. English, Spanish, French, German, Portuguese and Italian.
 
 ## Install
 
@@ -48,7 +62,7 @@ Each test updates the previous one in place and keeps your messages.
 | Part | State |
 |---|---|
 | Project setup and CI | Done |
-| Android, iPhone and Mac projects, permissions, blue app icon | Done |
+| Android, iPhone and Mac projects, permissions, app icon | Done |
 | Bluetooth, USB (Android) and Wi-Fi links | Done |
 | Automatic reconnect on Bluetooth, USB and Wi-Fi | Done |
 | MeshCore protocol | Done |
@@ -90,6 +104,9 @@ Each test updates the previous one in place and keeps your messages.
 | MeshCore last-heard from your radio, ignored MeshCore channel posts silenced, ring labels over pins | Done (test 27, checked on a phone) |
 | Old wrong MeshCore last-heard dates cleared | Done (test 28, checked on a phone) |
 | SARNEG code words for numbers in messages | Done (test 29, checked on a phone, not yet over the air) |
+| SARNEG: screen reader says "Code word hidden" while masked | Done (test 30, checked on a phone) |
+| SARNEG: auto-clear, Random word, weak-word warning, screenshot block | Done (test 31, screenshot block checked on a phone) |
+| BLACKOUT look as the default and the new app icon | Done, arrives in the next test build |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
