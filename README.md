@@ -23,9 +23,11 @@ Connect a MeshCore companion and a Meshtastic node at the same time, and chat, m
 
 Screenshots from demo mode (pretend radios, made-up names and places) in the default **BLACKOUT** look.
 
-## Status: test 34 out (23 November 2026)
+## Status: test 35 out (23 November 2026)
 
-**[0.34.0 test 34](../../releases/tag/v0.34.0-test.34)** (build 39) encrypts saved messages **by default** on Android phones and Macs (the first start converts your existing messages, keeping the old file if anything fails), and adds **coverage mapping** (MeshCore: record where your radio hears packets; sharing with the NOTORYX coverage map is off until you agree), **follow a node for 15 minutes** with its trail, **sensor history and alerts** for MeshCore nodes, **repeater status and neighbour signal history**, and a warning when a MeshCore radio's channels were changed elsewhere. Test 34 hasn't been tried on a phone or radio yet.
+**[0.35.0 test 35](../../releases/tag/v0.35.0-test.35)** (build 40) speaks **18 languages** (added Bulgarian, Hungarian, Japanese, Korean, Dutch, Polish, Russian, Slovak, Slovenian, Swedish, Ukrainian and Chinese; all but English machine-written) and adds more **SARNEG** options: keep the grid zone in clear, send without the marker, expiry and "delete all words after a day", a secret SARDOT reference point with a map button, and number and letter of the day. The SARNEG format is unchanged. Test 35 hasn't been tried on a phone or radio yet.
+
+[Test 34](../../releases/tag/v0.34.0-test.34) encrypts saved messages **by default** on Android phones and Macs (the first start converts your existing messages, keeping the old file if anything fails), and adds **coverage mapping** (MeshCore: record where your radio hears packets; sharing with the NOTORYX coverage map is off until you agree), **follow a node for 15 minutes** with its trail, **sensor history and alerts** for MeshCore nodes, **repeater status and neighbour signal history**, and a warning when a MeshCore radio's channels were changed elsewhere. On a phone, its first start encrypted the saved messages with none lost.
 
 [Test 33](../../releases/tag/v0.33.0-test.33) made the demo open with a short made-up history. [Test 32](../../releases/tag/v0.32.0-test.32) brought the **BLACKOUT** look: the steel eagle-N app icon and BLACKOUT (frost on matte black) as the default theme.
 
@@ -41,7 +43,7 @@ Screenshots from demo mode (pretend radios, made-up names and places) in the def
 - **Diagnostics:** packet log, noise floor, trace route with trace cards, nearby repeater test, network diagram and delivery hints.
 - **Trust and safety:** verified senders, trusted nodes, ignore a node, MECP emergency messages, MAYDAY through mute, distress beacon, SALUTE and 9-Line reports, checklists.
 - **Radio admin:** MeshCore and Meshtastic radio settings, repeater and room server admin, remote admin over the mesh.
-- **Your look, your data:** seven looks, glass backgrounds, node colours and photos, app lock, messages encrypted by default on phones and Macs, password-protected backups. English, Spanish, French, German, Portuguese and Italian.
+- **Your look, your data:** seven looks, glass backgrounds, node colours and photos, app lock, messages encrypted by default on phones and Macs, password-protected backups. 18 languages.
 
 ## Install
 
@@ -49,10 +51,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.34.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.34.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.34.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.34.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.35.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.35.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.35.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.35.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
@@ -110,7 +112,8 @@ Each test updates the previous one in place and keeps your messages.
 | SARNEG: auto-clear, Random word, weak-word warning, screenshot block | Done (test 31, screenshot block checked on a phone) |
 | BLACKOUT look as the default and the new app icon | Done (test 32, checked on a phone) |
 | Demo opens with a made-up history | Done (test 33, untested on hardware) |
-| Encrypted by default, coverage mapping, follow a node, sensor and repeater history, channel mismatch warning | Done (test 34, untested on hardware) |
+| Encrypted by default, coverage mapping, follow a node, sensor and repeater history, channel mismatch warning | Done (test 34, encryption on first start checked on a phone) |
+| 18 languages and more SARNEG options (zone in clear, no marker, expiry, SARDOT, number of the day) | Done (test 35, untested on hardware) |
 | iPhone build, Google Play, App Store | Not started (needs Apple and Play developer accounts) |
 
 ## Installs alongside other NOTORYX apps
