@@ -23,9 +23,11 @@ Connect a MeshCore companion and a Meshtastic node at the same time, and chat, m
 
 Screenshots from demo mode (pretend radios, made-up names and places) in the default **BLACKOUT** look.
 
-## Status: test 37 out (25 November 2026)
+## Status: test 38 out (26 November 2026)
 
-**[0.37.0 test 37](../../releases/tag/v0.37.0-test.37)** (build 42) makes sure SARNEG text you copy is cleared from the clipboard even if your phone closes the app before the minute is up (Samsung phones do this): the clear is now scheduled with Android itself. Checked on a phone with the app killed: after about two minutes another app had nothing to paste.
+**[0.38.0 test 38](../../releases/tag/v0.38.0-test.38)** (build 43) clears copied SARNEG text exactly one minute after you copy it, if your phone allows exact alarms for PRO. **SARNEG → Options** shows whether it does, and a tap opens the Android page to allow it. Checked on a phone with exact alarms not allowed: with the app killed, nothing was left to paste after two minutes. The exact path isn't checked yet.
+
+[Test 37](../../releases/tag/v0.37.0-test.37) (build 42) makes sure SARNEG text you copy is cleared from the clipboard even if your phone closes the app before the minute is up (Samsung phones do this): the clear is now scheduled with Android itself. Checked on a phone with the app killed: after about two minutes another app had nothing to paste.
 
 [Test 36](../../releases/tag/v0.36.0-test.36) adds a **Privacy page** (what can leave your phone, and whether each is on), a warning when a sender's name only **looks like** a node you trust, a **Support report** for bug reports with every name, ID, key and address removed, and report status for community moderation. It also fixes SARNEG copied text staying on the clipboard after you switch apps, the grey demo map, and several MeshCore issues (large contact lists, long channel posts, negative transmit power, contacts-full warning). On a phone: the Privacy page, the Support report, the real demo map and the SARNEG clipboard clear were checked; nothing has been tried over the air yet.
 
@@ -55,10 +57,10 @@ Each test updates the previous one in place and keeps your messages.
 
 | File | For |
 |---|---|
-| `NOTORYX-PRO-0.37.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
-| `NOTORYX-PRO-0.37.0-android.apk` | Any Android device (larger) |
-| `NOTORYX-PRO-0.37.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
-| `NOTORYX-PRO-0.37.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
+| `NOTORYX-PRO-0.38.0-android-arm64.apk` | Most Android phones (64-bit ARM) |
+| `NOTORYX-PRO-0.38.0-android.apk` | Any Android device (larger) |
+| `NOTORYX-PRO-0.38.0-macos.zip` | Mac (Intel and Apple silicon), macOS 12 or later |
+| `NOTORYX-PRO-0.38.0-windows-x64.zip` | Windows 10 and 11, 64-bit (never run on a real PC yet) |
 
 - **Android:** open the APK on the phone and allow installs from your browser or file manager when asked. Signed with the NOTORYX PRO key, certificate SHA-256 `7419F685D2FBFDF533C2EE32034477531E3A414D8574320B079FC913183AFA70`.
 - **Mac:** not notarized. Unzip, then right-click **NOTORYX PRO** → **Open** the first time.
