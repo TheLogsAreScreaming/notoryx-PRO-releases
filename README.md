@@ -23,9 +23,11 @@ Connect a MeshCore companion and a Meshtastic node at the same time, and chat, m
 
 Screenshots from demo mode (pretend radios, made-up names and places) in the default **BLACKOUT** look.
 
-## Status: test 38 out (26 November 2026)
+## Status: test 40 out (28 November 2026)
 
-**[0.38.0 test 38](../../releases/tag/v0.38.0-test.38)** (build 43) clears copied SARNEG text exactly one minute after you copy it, if your phone allows exact alarms for PRO. **SARNEG → Options** shows whether it does, and a tap opens the Android page to allow it. Checked on a phone both ways with the app killed: with exact alarms allowed the text was gone right after the minute, and without them it was gone within two minutes.
+**[0.40.0 test 40](../../releases/tag/v0.40.0-test.40)** (build 45) is a large update: **canned messages** in every message box, a rebuilt **unified inbox** with unread count, a **CLI terminal** for MeshCore radios, **signal bars** on nodes and the map, **battery %** on nodes, a **reachability label** so you can see at a glance whether a node can be reached, a **hop count badge**, **relay attribution** (which repeater last carried your message), **who relays me** (which repeaters repeat your traffic), **relay paths toggle**, a **firmware update sheet** (links and version comparison), **scan a contact QR** to add a node, **telemetry subscribe** (request sensors and repeater stats on connect), **bulk-clear** conversations, **cancel send** while a message is still retrying, and region and frequency in the radio list row. Not yet installed or tried on radios.
+
+[Test 38](../../releases/tag/v0.38.0-test.38) (build 43) clears copied SARNEG text exactly one minute after you copy it, if your phone allows exact alarms for PRO. **SARNEG → Options** shows whether it does, and a tap opens the Android page to allow it. Checked on a phone both ways with the app killed: with exact alarms allowed the text was gone right after the minute, and without them it was gone within two minutes.
 
 [Test 37](../../releases/tag/v0.37.0-test.37) (build 42) makes sure SARNEG text you copy is cleared from the clipboard even if your phone closes the app before the minute is up (Samsung phones do this): the clear is now scheduled with Android itself. Checked on a phone with the app killed: after about two minutes another app had nothing to paste.
 
